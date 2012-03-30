@@ -5,7 +5,6 @@ gem 'rails', '3.1.4'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 
 gem 'heroku', '~> 2.23.0'
 
@@ -39,4 +38,8 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
+end
+
+group :development, :test do
+  gem 'sqlite3'
 end
