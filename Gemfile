@@ -12,6 +12,7 @@ gem 'heroku', '~> 2.23.0'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+  gem 'pg'
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
 
