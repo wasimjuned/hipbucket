@@ -7,6 +7,7 @@ gem 'rails', '3.1.4'
 
 
 gem 'heroku', '~> 2.23.0'
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,6 +20,8 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'bootstrap-sass', '~> 2.0.1'
+
 end
 
 gem 'jquery-rails'
