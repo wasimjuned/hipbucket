@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  admin_email: MyString
+  admin_hash: MyString
+  participation_hash: MyString
+  go_cardless_code: MyString
+  go_cardless_token: MyString
+
+two:
+  name: MyString
+  description: MyString
+  admin_email: MyString
+  admin_hash: MyString
+  participation_hash: MyString
+  go_cardless_code: MyString
+  go_cardless_token: MyString
