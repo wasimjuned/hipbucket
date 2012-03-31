@@ -8,6 +8,7 @@ gem 'rails', '3.1.4'
 
 gem 'heroku', '~> 2.23.0'
 gem 'devise'
+gem 'haml', '~> 3.1.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
