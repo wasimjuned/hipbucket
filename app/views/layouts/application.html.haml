@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+%html
+  %head
+    %title HipBucket
+    =stylesheet_link_tag    "application"
+    =javascript_include_tag "application"
+    =csrf_meta_tags
+    =favicon_link_tag 'favicon.png'
+  
+  
+  %body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+
+          = link_to "HipBucket", root_url, :class => "brand"
+
+          %nav.user
+            %ul.nav
+              %li=link_to "About"
+              %li=link_to "Pricing"
+
+          %nav.pull-right
+            %ul.nav
+              %li=link_to "Log in"
+
+    .container
+      = yield
+

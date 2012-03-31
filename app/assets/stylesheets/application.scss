@@ -1,1 +1,24 @@
 @import "bootstrap";
+
+body {
+  padding-top: 60px;
+}
+
+.masthead {
+  text-align: center;
+  h1 {
+    font-size: 60px;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  a.btn-large {
+    font-size: 20px;
+    padding: 13px 21px;
+  }
+
+}
