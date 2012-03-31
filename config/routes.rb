@@ -1,5 +1,11 @@
 Hipbucket::Application.routes.draw do
 
+  get "buckets/new"
+
+  get "buckets/edit"
+
+  get "buckets/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
