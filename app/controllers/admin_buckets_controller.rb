@@ -1,2 +1,0 @@
-class AdminBucketsController < ApplicationController
-end
