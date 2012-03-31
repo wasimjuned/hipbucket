@@ -1,0 +1,2 @@
+class AdminBucketsController < ApplicationController
+end
